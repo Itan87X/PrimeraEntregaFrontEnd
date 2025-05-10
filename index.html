@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio - Itan87</title>
+  <!-- Enlace al archivo de estilos externo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>¡Hola! Soy Naty 🌟</h1>
+    <p>Desarrolladora Front-End en formación. Bienvenid@ a mi portfolio.</p>
+  </header>
+
+  <main>
+      <!-- Sección de presentación personal -->
+      <section id="presentacion">
+        <!-- Imagen representativa mía - Mejora: quiero reemplazarla luego por una mía optimizada, pero por ahora coloque esta solamente -->
+        <img src="img/img-representativa.jpg" alt="Una imagen representativa mía" class="imagen-perfil">
+      </section>
+
+      <!-- Tabla con mis conocimientos actuales orientados solo a frontend, obviando el resto. Además, mencionando a futuro en qué profundizaría para orientarme a ésta área -->
+      <!-- Mejora: A futuro me gustaría colocar en otra html links a proyectos directamente en github y pages separando por lenguajes usados, frameworks, etc., por ejemplo -->
+      <section id="tabla-conocimientos">
+        <h2>Conocimientos y Gustos</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tecnologías que conozco</th>
+              <th>Tecnologías que quiero aprender</th>
+              <th>Mis hobbies</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML, CSS</td>
+              <td>JavaScript, React</td>
+              <td>Programar, leer, meditar, entrenar, tocar el bajo eléctrico</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    <!-- Formulario de contacto -->
+    <!-- Mejora: Quiero sacarlo de acá y colocarlo en otra página HTML, añadirle animación al botón, por ejemplo, que cambie de color al dar click en "enviar"-->
+    
+    <section>
+      <h2>¡Contáctame!</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Enlace a redes o proyecto -->
+    <section>
+      <h2>¡Visitá mis redes!</h2>
+      <p>Podés ver más sobre mí en <a href="https://github.com/Itan87X/PrimeraEntregaFrontEnd" target="_blank">mi GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Itan87 - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
